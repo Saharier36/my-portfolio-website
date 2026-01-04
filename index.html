@@ -1,41 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="header">
-    <h1>My PortfolioWebsite</h1>
-    <h4>HTML, CSS, Git, GitHub</h4>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="from"></form>
+    <div>
+      <label for="Username">Input Username:</label>
+      <input
+        type="text"
+        id="Username"
+        name="Username"
+        placeholder="enter your username"
+      />
     </div>
-    <div class="links">
-        <strong>Profile Links</strong><br>
-        <a href="https://github.com/Saharier36" id="button"><button>GitHub Profile</button></a>
-    </div><br>
-    <div class="image">
-        <strong>My Image</strong><br>
-        <img src="images/formal pic.jpeg" alt="my image" width="150" height="150">
-        <span>this is my image</span><br>
-        email: <input type="email"><br>
-        password: <input type="password" name="" id="" >
-    </div><br>
-    <div class="skills">
-        <strong>My Skills</strong><br>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git</li>
-            <li>GitHub</li>
-        </ul>
-        <strong>My Educational qualifications</strong>
-        <ol>
-            <li>ssc</li>
-            <li>hsc</li>
-            <li>ba in history</li>
-        </ol>
+    <div>
+      <label for="password">Input Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="enter your password"
+      />
     </div>
-</body>
+    <div>
+      <label for="gender">Input Gender:</label>
+      <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div>
+      <input type="radio" name="occupation" id="student" value="student" />
+      <label for="student">student</label>
+      <input type="radio" name="occupation" id="teacher" value="teacher" />
+      <label for="teacher">teacher</label>
+      <input type="radio" name="occupation" id="other" value="other" />
+      <label for="other">other</label>
+    </div>
+    <div>
+      <input type="checkbox" name="subscribe" id="subscribe" /><em
+        >subscribee</em
+      >
+    </div>
+    <div>
+      <input type="submit" name="submit" id="submit" value="Submit" />
+    </div>
+    <div class="paragraph">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
+        aliquid nesciunt, accusamus, amet iste ducimus repellat et esse dolore
+        nisi, mollitia odio quis. Aspernatur, asperiores. Reprehenderit
+        laboriosam dolore enim, non culpa quia atque officia.
+      </p>
+    </div>
+    <div class="border"><h2>
+      This is a bordered heading
+    </h2></div>
+  </body>
 </html>
